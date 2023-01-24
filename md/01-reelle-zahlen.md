@@ -4,7 +4,7 @@
 
 ### Definition Abzählbarkeit
 
-$A$ ist abzählbar, wenn es eine surjektive Abbildung von $\mathbb{N}$ auf $A$ gibt. ($f: \mathbb{N} \rightarrow A$)
+$A$ ist **abzählbar**, wenn es eine surjektive Abbildung von $\mathbb{N}$ auf $A$ gibt. ($f: \mathbb{N} \rightarrow A$)
 
 - Mit anderen Worten: $A$ kann durchnummeriert werden
 
@@ -37,11 +37,11 @@ Der Körper $\mathbb{C}$ kann nicht angeordnet werden da:
 
 ### Beschränktheit
 
-Eine Menge $M \subseteq \mathbb{R}$ ist nach oben beschränkt,
-falls sein $s_0 \in \mathbb{R}$ existiert, sodass
+Eine Menge $M \subseteq \mathbb{R}$ ist nach **oben beschränkt**,
+falls ein $s_0 \in \mathbb{R}$ existiert, sodass
 $\forall s \in M$ gilt: $s \leq s_0$
 
-- Die Zahl $s_0$ heißt obere Schranke von $M$
+- Die Zahl $s_0$ heißt **obere Schranke** von $M$
 
 ### Supremumsaxiom in den reellen Zahlen
 

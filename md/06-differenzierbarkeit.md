@@ -17,6 +17,9 @@
   - $\lim \limits_{x \rightarrow x_0} \frac{f(x)}{g(x)} = 0$
   - "f ist asymptotisch kleiner als g"
 
+**Bemerkung:**
+$$\lim _{x \rightarrow x_0}\left|\frac{f(x)}{g(x)}\right|=c \quad \Longrightarrow \quad f(x)=O(g(x)) \ \text{ für } \ x \rightarrow x_0$$
+
 ## Definition
 
 $f : I \rightarrow \mathbb{R}$ auf einem offenen Intervall $I \subseteq \mathbb{R}$ ist differenzierbar in $x_0 \in I$, falls für eine Zahl $f'(x_0) \in \mathbb{R}$ folgende Linearisierung gültig ist:

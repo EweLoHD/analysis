@@ -38,13 +38,13 @@ Damit $s_n$ konvergieren kann muss $\lim\limits_{n \to \infty} a_n = 0$ gelten.
 
 ### Majorantenkriterium
 
-Falls $|a_n| \leq b_n$ für alle $n \in \mathbb{N}$, und $\lim\limits_{n \to \infty} b_n = b$, dann ist $a_n$ konvergent.
+Sei $\left|a_k\right| \leq b_k$ für alle $k \in \mathbb{N}$. Wenn $\sum_{k=1}^{\infty} b_k$ konvergiert, dann konvergiert die Reihe $\sum_{k=1}^{\infty} a_k$ absolut.
 
 Beispiel:
 
-- $s_n = \sum\limits_{k=1}^n \frac{k}{k^3+k}$
-- $a_k = \frac{k}{k^3+k} \leq \frac{k}{k^3} = \frac{1}{k^2}$
-- Da $\sum\limits_{k=1}^n \frac{1}{k^2}$ konvergiert, ist auch $s_n$ konvergent.
+> $s_n = \sum\limits_{k=1}^n \frac{k}{k^3+k}$\
+> $a_k = \frac{k}{k^3+k} \leq \frac{k}{k^3} = \frac{1}{k^2}$\
+> Da $\sum\limits_{k=1}^n \frac{1}{k^2}$ konvergiert, ist auch $s_n$ konvergent.
 
 ### Minorantenkriterium
 
@@ -52,9 +52,9 @@ Falls $|a_n| \leq b_n$ für alle $n \in \mathbb{N}$, und $a_n$ divergiert, dann 
 
 Beispiel:
 
-- $s_n = \sum\limits_{k=1}^n \frac{1}{\sqrt{k}}$
-- $a_k = \frac{1}{\sqrt{k}} \geq \frac{1}{k}$
-- Da $\sum\limits_{k=1}^n \frac{1}{k}$ divergiert, ist auch $s_n$ divergent.
+> $s_n = \sum\limits_{k=1}^n \frac{1}{\sqrt{k}}$\
+> $a_k = \frac{1}{\sqrt{k}} \geq \frac{1}{k}$\
+> Da $\sum\limits_{k=1}^n \frac{1}{k}$ divergiert, ist auch $s_n$ divergent.
 
 ### Quotientenkriterium
 
@@ -66,9 +66,9 @@ Sei $q=\lim\limits_{n \to \infty} |\frac{a_{n+1}}{a_n}|$.
 
 Beispiel:
 
-- $s_n = \sum\limits_{k=1}^n \frac{1}{n!}$
-- $q=\lim\limits_{n \to \infty} |\frac{a_{n+1}}{a_n}| = \lim\limits_{n \to \infty} |\frac{\frac{1}{(n+1)!}}{\frac{1}{n!}}| = \lim\limits_{n \to \infty} \frac{1}{n+1} = 0$
-- Da $q < 1$, ist $s_n$ konvergent.
+> $s_n = \sum\limits_{k=1}^n \frac{1}{n!}$\
+> $q=\lim\limits_{n \to \infty} |\frac{a_{n+1}}{a_n}| = \lim\limits_{n \to \infty} |\frac{\frac{1}{(n+1)!}}{\frac{1}{n!}}| = \lim\limits_{n \to \infty} \frac{1}{n+1} = 0$\
+> Da $q < 1$, ist $s_n$ konvergent.
 
 ### Leibnitz Kriterium (Alternierende Reihen)
 
@@ -78,8 +78,8 @@ Sei $(a_n)_{n \in \mathbb{N_0}}$ monoton fallend mit $\lim\limits_{n \to \infty}
 
 Beispiel:
 
-- $s_n = \sum\limits_{k=0}^n (-1)^k \frac{1}{2^k}$
-- Da $a_k = \frac{1}{2^k}$ monoton fallend ist, und gegen 0 konvergiert, ist $s_n$ konvergent.
+> $s_n = \sum\limits_{k=0}^n (-1)^k \frac{1}{2^k}$\
+> Da $a_k = \frac{1}{2^k}$ monoton fallend ist, und gegen 0 konvergiert, ist $s_n$ konvergent.
 
 ## 3.3 Wert einer Reihe
 

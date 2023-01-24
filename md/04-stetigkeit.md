@@ -53,7 +53,7 @@ Beispiele für stetige Funktionen:
 - $f(x,y) = x\cdot y$
 - $f(x,y) = \frac{x}{y}$ mit $\mathbb{D} = \mathbb{R} \times (\mathbb{R} \setminus \{0\})$
 
-Damit sind auch Summen und Produkte stetiger Funktionen stetig.
+**Damit sind auch Summen und Produkte stetiger Funktionen stetig.**
 
 - Somit sind insbesondere auch Polynome stetig
 - Rationalen Funktionen mit $f(z)=\frac{p(z)}{q(z)}$ mit $p$ und $q$ Polynomen sind auf ihrem Definitionsbereich stetig

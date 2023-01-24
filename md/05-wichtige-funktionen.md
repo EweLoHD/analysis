@@ -44,7 +44,7 @@ Wichige Werte:
 ### Asymptotisches Verhalten von _exp_ und _ln_
 
 - Die Exponentialfunktion wächst schneller gegen unendlich als jedes Polynom:
-  $\lim \limits_{x \rightarrow \infty} \frac{e^x}{x^m} = \infty$
+  $\lim \limits_{x \rightarrow \infty} \frac{e^x}{x^m} = \infty$ und $\lim \limits_{x \rightarrow \infty} \frac{x^m}{e^x} = 0$
 - $x$ wächst schneller gegen unendlich als jede Potenz des Logarithmus:
   $\lim \limits_{x \rightarrow \infty} \frac{x}{(\ln{x})^m} = \infty$
 - Mehrfache Anwendung des Logarithmus führt zu langsamerem Wachstum:

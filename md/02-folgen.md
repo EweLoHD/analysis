@@ -15,11 +15,15 @@ Falls $\lim\limits_{n \rightarrow \infty} a_n = a$ und $\lim\limits_{n \rightarr
 
 ## 2.1 Konvergenz
 
+Besitzt eine Folge so einen **Grenzwert**, so spricht man von **Konvergenz** der Folge – die Folge ist konvergent; sie konvergiert –, andernfalls von **Divergenz**.
+
+![Bild Epsilonschlauch](md/img/525px-Epsilonschlauch.png)
+
 ### Definition Konvergenz
 
 Eine Folge $(a_n)_{n\in\mathbb{N}}$ konvergiert nach $a \in \mathbb{C}$ falls:
 
-- $\forall \varepsilon > 0 \space \space \exists n_0 \in \mathbb{N} \space \space \forall n \geq n_0 \space \space |a_n - a| < \varepsilon$
+- $\forall \varepsilon > 0 \; \exists n_0 \in \mathbb{N} \; \forall n \geq n_0 :\; |a_n - a| < \varepsilon$
 
 Kurzschreibweisen:
 
@@ -30,15 +34,15 @@ Kurzschreibweisen:
 
 Eine Folge $(a_n)_{n\in\mathbb{N}}$ divergiert falls:
 
-- $\forall a \in \mathbb{R} \space \space \exists \varepsilon >0 \space \space \forall n_0 \in \mathbb{N} \space \space \exists n > n_0 \space \space  |a_n - a| \geq \varepsilon$
+- $\forall a \in \mathbb{R} \; \exists \varepsilon >0 \; \forall n_0 \in \mathbb{N} \; \exists n > n_0 \;  |a_n - a| \geq \varepsilon$
 
 Eine Folge $(a_n)_{n\in\mathbb{N}}$ divergiert gegen $\infty$ / konvergiert uneigentlich falls:
 
-- $\forall K > 0 \space \space \exists n_0 \in \mathbb{N} \space \space \forall n \geq n_0 \space \space a_n \geq K$
+- $\forall K > 0 \; \exists n_0 \in \mathbb{N} \; \forall n \geq n_0 \; a_n \geq K$
 
 Eine Folge $(a_n)_{n\in\mathbb{N}}$ divergiert gegen $-\infty$ / konvergiert uneigentlich falls:
 
-- $\forall K > 0 \space \space \exists n_0 \in \mathbb{N} \space \space \forall n \geq n_0 \space \space a_n \leq -K$
+- $\forall K > 0 \; \exists n_0 \in \mathbb{N} \; \forall n \geq n_0 \; a_n \leq -K$
 
 Teilfolgen
 
@@ -58,7 +62,7 @@ Außerdem: Falls $a_n \simeq b_n$ dann gilt:
 
 ### Beschränktheit
 
-Eine Folge $(a_n)_{n\in\mathbb{N}}$ ist beschränkt falls $\exists K \in \mathbb{R} \space \space \forall n \in \mathbb{N} \space \space |a_n| \leq K$
+Eine Folge $(a_n)_{n\in\mathbb{N}}$ ist beschränkt falls $\exists K \in \mathbb{R} \; \forall n \in \mathbb{N} \; |a_n| \leq K$
 
 - Insbesondere ist eine Folge beschränkt falls sie konvergiert
 
